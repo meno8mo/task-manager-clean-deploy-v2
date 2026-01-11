@@ -13,7 +13,7 @@
  */
 
 const express = require('express');
-//const cors = require('cors');
+const cors = require('cors');
 
 // Import our custom modules
 const taskRepository = require('./infrastructure/database/mongo/task.repository');
